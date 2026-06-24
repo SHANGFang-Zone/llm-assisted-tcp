@@ -1,0 +1,4 @@
+first_failing_rank,normalized_first_failing_rank,APFD,top_5_detected,top_10_detected,top_20_detected,top_30_detected,runtime_to_first_failure,method
+63,0.39375,0.31375000000000003,False,False,False,False,37476725900,addtl_llm_tiebreak_ranking
+63,0.39375,0.31375000000000003,False,False,False,False,37476725900,addtl_ranking
+4,0.025,0.5540625000000001,True,True,True,True,2694859676,total_ranking

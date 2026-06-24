@@ -1,0 +1,586 @@
+You are assisting with test case prioritization for early failure detection.
+Goal: Rank the candidate tests so that tests more likely to reveal failures are executed earlier.
+Failure context: [Insert failure stacktrace or error message if available]
+Candidate tests:
+1. T0042
+Test name: com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListsTest#testUnwrappedLists
+Total covered fragments: 20
+Runtime: 879755108
+
+2. T0043
+Test name: com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListsTest#testDefaultWrapping
+Total covered fragments: 21
+Runtime: 946208493
+
+3. T0044
+Test name: com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListsTest#testDefaultWrappingWithEmptyLists
+Total covered fragments: 16
+Runtime: 598457861
+
+4. T0045
+Test name: com.fasterxml.jackson.dataformat.xml.lists.ListAsObjectTest#testCollection
+Total covered fragments: 16
+Runtime: 791075641
+
+5. T0046
+Test name: com.fasterxml.jackson.dataformat.xml.lists.ListAnnotationSharingTest#testAnnotationSharing
+Total covered fragments: 21
+Runtime: 287552456
+
+6. T0047
+Test name: com.fasterxml.jackson.dataformat.xml.lists.ListWithAttributes#testListWithAttributes
+Total covered fragments: 16
+Runtime: 799762047
+
+7. T0048
+Test name: com.fasterxml.jackson.dataformat.xml.lists.ListWithAttributes#testIdsFromAttributes
+Total covered fragments: 20
+Runtime: 976893444
+
+8. T0049
+Test name: com.fasterxml.jackson.dataformat.xml.lists.ListWithAttributes#testIssue43
+Total covered fragments: 17
+Runtime: 815915888
+
+9. T0050
+Test name: com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest#testWrappedListBeanDeser
+Total covered fragments: 16
+Runtime: 255348213
+
+10. T0051
+Test name: com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest#testUnwrappedListBeanDeser
+Total covered fragments: 16
+Runtime: 175361182
+
+11. T0052
+Test name: com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest#testWrappedList
+Total covered fragments: 21
+Runtime: 499032879
+
+12. T0053
+Test name: com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest#testWrappedListWithGetters
+Total covered fragments: 21
+Runtime: 371072297
+
+13. T0054
+Test name: com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest#testWrappedListWithAttribute
+Total covered fragments: 16
+Runtime: 207958955
+
+14. T0055
+Test name: com.fasterxml.jackson.dataformat.xml.lists.RootListHandlingTest#testArraySerialization
+Total covered fragments: 19
+Runtime: 1491342105
+
+15. T0056
+Test name: com.fasterxml.jackson.dataformat.xml.lists.RootListHandlingTest#testListSerialization
+Total covered fragments: 19
+Runtime: 1467183068
+
+16. T0057
+Test name: com.fasterxml.jackson.dataformat.xml.lists.RootListHandlingTest#testRenamedRootItem
+Total covered fragments: 15
+Runtime: 783868827
+
+17. T0058
+Test name: com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListWithEmptyCData129Test#testListWithEmptyCData
+Total covered fragments: 16
+Runtime: 228984658
+
+18. T0059
+Test name: com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest#testNested1_2b
+Total covered fragments: 16
+Runtime: 686007808
+
+19. T0060
+Test name: com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest#testNestedWithEmpty2
+Total covered fragments: 16
+Runtime: 744599104
+
+20. T0061
+Test name: com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest#testNestedWithEmpty
+Total covered fragments: 16
+Runtime: 842476144
+
+21. T0062
+Test name: com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest#testNested1_2
+Total covered fragments: 16
+Runtime: 685087987
+
+22. T0063
+Test name: com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest#testNested2_1
+Total covered fragments: 16
+Runtime: 943871067
+
+23. T0064
+Test name: com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedLists180Test#testNestedUnwrappedLists180
+Total covered fragments: 16
+Runtime: 176382788
+
+24. T0065
+Test name: com.fasterxml.jackson.dataformat.xml.RoundtripContentTest#testRoundtrip
+Total covered fragments: 21
+Runtime: 620847076
+
+25. T0066
+Test name: com.fasterxml.jackson.dataformat.xml.misc.TextValueTest#testAlternateTextElementName
+Total covered fragments: 17
+Runtime: 192141712
+
+26. T0067
+Test name: com.fasterxml.jackson.dataformat.xml.misc.TextValueTest#testTextOnlyPojo
+Total covered fragments: 21
+Runtime: 285933005
+
+27. T0068
+Test name: com.fasterxml.jackson.dataformat.xml.misc.TextValueTest#testSerializeAsText
+Total covered fragments: 15
+Runtime: 175561738
+
+28. T0069
+Test name: com.fasterxml.jackson.dataformat.xml.misc.TextValueTest#testDeserializeAsText
+Total covered fragments: 16
+Runtime: 355049353
+
+29. T0070
+Test name: com.fasterxml.jackson.dataformat.xml.misc.TextValueTest#testIssue24
+Total covered fragments: 16
+Runtime: 401062420
+
+30. T0071
+Test name: com.fasterxml.jackson.dataformat.xml.misc.TextValueTest#testIssue66
+Total covered fragments: 20
+Runtime: 222268236
+
+31. T0073
+Test name: com.fasterxml.jackson.dataformat.xml.misc.UnwrappingWithXMLTest#testUnwrappingWithAttribute
+Total covered fragments: 20
+Runtime: 1722111276
+
+32. T0074
+Test name: com.fasterxml.jackson.dataformat.xml.misc.UnwrappingWithXMLTest#testSimpleUnwrappingRoundtrip
+Total covered fragments: 20
+Runtime: 1971979609
+
+33. T0075
+Test name: com.fasterxml.jackson.dataformat.xml.misc.EmptyPolymorphicTest#testEmpty
+Total covered fragments: 22
+Runtime: 868927680
+
+34. T0076
+Test name: com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testIntArrayToX
+Total covered fragments: 11
+Runtime: 521424281
+
+35. T0077
+Test name: com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testArrayIdentityTransforms
+Total covered fragments: 10
+Runtime: 664790411
+
+36. T0078
+Test name: com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testShortArrayToX
+Total covered fragments: 11
+Runtime: 494581519
+
+37. T0079
+Test name: com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testListAsProperty
+Total covered fragments: 15
+Runtime: 758916333
+
+38. T0080
+Test name: com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testListToIntArray
+Total covered fragments: 10
+Runtime: 654216869
+
+39. T0081
+Test name: com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testByteArrayFrom
+Total covered fragments: 10
+Runtime: 410346088
+
+40. T0082
+Test name: com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testLongArrayToX
+Total covered fragments: 11
+Runtime: 634181445
+
+41. T0083
+Test name: com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testNullXform
+Total covered fragments: 10
+Runtime: 390712037
+
+42. T0084
+Test name: com.fasterxml.jackson.dataformat.xml.misc.ObjectId104Test#testSimpleCollectionDeserWithForwardRefs
+Total covered fragments: 16
+Runtime: 182873748
+
+43. T0085
+Test name: com.fasterxml.jackson.dataformat.xml.misc.PolymorphicTypesTest#testAsClassProperty
+Total covered fragments: 23
+Runtime: 755077790
+
+44. T0087
+Test name: com.fasterxml.jackson.dataformat.xml.misc.PolymorphicTypesTest#testAsClassObject
+Total covered fragments: 23
+Runtime: 763437029
+
+45. T0088
+Test name: com.fasterxml.jackson.dataformat.xml.misc.XmlTextTest#testXmlTextWithSuppressedValue
+Total covered fragments: 15
+Runtime: 455709995
+
+46. T0089
+Test name: com.fasterxml.jackson.dataformat.xml.misc.NodeTest#testMixed
+Total covered fragments: 15
+Runtime: 655764223
+
+47. T0090
+Test name: com.fasterxml.jackson.dataformat.xml.incr.PartialReadTest#testSimpleRead
+Total covered fragments: 15
+Runtime: 179088041
+
+48. T0091
+Test name: com.fasterxml.jackson.dataformat.xml.incr.IncrementalWritingTest#testSimple
+Total covered fragments: 14
+Runtime: 338993258
+
+49. T0092
+Test name: com.fasterxml.jackson.dataformat.xml.deser.TestStringValues#testStringArrayWithAttribute
+Total covered fragments: 16
+Runtime: 151123042
+
+50. T0093
+Test name: com.fasterxml.jackson.dataformat.xml.deser.TestStringValues#testMissingString
+Total covered fragments: 16
+Runtime: 149576529
+
+51. T0094
+Test name: com.fasterxml.jackson.dataformat.xml.deser.TestStringValues#testEmptyElementToString
+Total covered fragments: 16
+Runtime: 140726915
+
+52. T0095
+Test name: com.fasterxml.jackson.dataformat.xml.deser.TestStringValues#testStringWithAttribute
+Total covered fragments: 16
+Runtime: 139764325
+
+53. T0096
+Test name: com.fasterxml.jackson.dataformat.xml.deser.TestStringValues#testStringsWithAttribute
+Total covered fragments: 16
+Runtime: 118033334
+
+54. T0097
+Test name: com.fasterxml.jackson.dataformat.xml.deser.TestStringValues#testEmptyStringElement
+Total covered fragments: 16
+Runtime: 198045014
+
+55. T0098
+Test name: com.fasterxml.jackson.dataformat.xml.deser.TestStringValues#testSimpleStringElement
+Total covered fragments: 16
+Runtime: 137524012
+
+56. T0099
+Test name: com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization#testOptionalAttr
+Total covered fragments: 16
+Runtime: 126074906
+
+57. T0100
+Test name: com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization#testMissingOptionalAttr
+Total covered fragments: 16
+Runtime: 142109933
+
+58. T0101
+Test name: com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization#testFromAttribute
+Total covered fragments: 16
+Runtime: 135300653
+
+59. T0102
+Test name: com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization#testRoundTripWithJacksonExample
+Total covered fragments: 20
+Runtime: 252493739
+
+60. T0103
+Test name: com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization#testMapWithAttr
+Total covered fragments: 15
+Runtime: 76032393
+
+61. T0104
+Test name: com.fasterxml.jackson.dataformat.xml.deser.TestBinaryData#testTwoBinaryProps
+Total covered fragments: 16
+Runtime: 349977615
+
+62. T0105
+Test name: com.fasterxml.jackson.dataformat.xml.deser.TestViews#testNullSuppression
+Total covered fragments: 15
+Runtime: 236044632
+
+63. T0106
+Test name: com.fasterxml.jackson.dataformat.xml.deser.TestViews#testIssue7
+Total covered fragments: 21
+Runtime: 391944076
+
+64. T0107
+Test name: com.fasterxml.jackson.dataformat.xml.deser.TestViews#testIssue44
+Total covered fragments: 15
+Runtime: 338520937
+
+65. T0108
+Test name: com.fasterxml.jackson.dataformat.xml.deser.TestEnums#testEnum
+Total covered fragments: 20
+Runtime: 92091738
+
+66. T0109
+Test name: com.fasterxml.jackson.dataformat.xml.failing.TestEmptyContent#testNoContent
+Total covered fragments: 11
+Runtime: 220468218
+
+67. T0110
+Test name: com.fasterxml.jackson.dataformat.xml.failing.TestPolymorphic#testAsClassArray
+Total covered fragments: 18
+Runtime: 329205161
+
+68. T0111
+Test name: com.fasterxml.jackson.dataformat.xml.failing.TestPolymorphic#testAsWrappedClassArray
+Total covered fragments: 23
+Runtime: 415447716
+
+69. T0112
+Test name: com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testNeedEncodingKeyMap
+Total covered fragments: 16
+Runtime: 334659049
+
+70. T0113
+Test name: com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testSimpleKeyMap
+Total covered fragments: 16
+Runtime: 256239771
+
+71. T0114
+Test name: com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testSimpleKeyMapSimpleAnnotation
+Total covered fragments: 16
+Runtime: 337083235
+
+72. T0115
+Test name: com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testNeedEncodingKeyMapSimpleAnnotation
+Total covered fragments: 16
+Runtime: 270062677
+
+73. T0116
+Test name: com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testNeedEncodingKeyMapSimpleAnnotation_nonJaxb
+Total covered fragments: 16
+Runtime: 326575982
+
+74. T0117
+Test name: com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testNeedEncodingKeyMap_nonJaxb
+Total covered fragments: 16
+Runtime: 303864241
+
+75. T0118
+Test name: com.fasterxml.jackson.dataformat.xml.failing.TestUnwrappedDeserIssue86#testDeserializeUnwrappedListWhenLocalNameForRootElementAndXmlPropertyMatch
+Total covered fragments: 20
+Runtime: 733762703
+
+76. T0119
+Test name: com.fasterxml.jackson.dataformat.xml.failing.TestDeserialization#testEmptyStringFromElemAndAttr
+Total covered fragments: 16
+Runtime: 146024538
+
+77. T0120
+Test name: com.fasterxml.jackson.dataformat.xml.failing.TestStringValues162#testEmptyString162
+Total covered fragments: 16
+Runtime: 73317087
+
+78. T0121
+Test name: com.fasterxml.jackson.dataformat.xml.failing.DeserializePolyList178Test#testPolyIdList178
+Total covered fragments: 23
+Runtime: 211409531
+
+79. T0122
+Test name: com.fasterxml.jackson.dataformat.xml.failing.TestEnums#testUntypedEnum
+Total covered fragments: 23
+Runtime: 115209286
+
+80. T0123
+Test name: com.fasterxml.jackson.dataformat.xml.failing.TestEnums#testRootEnumIssue121
+Total covered fragments: 16
+Runtime: 93616072
+
+81. T0124
+Test name: com.fasterxml.jackson.dataformat.xml.failing.TestUntypedListSerialization#testListAsObject
+Total covered fragments: 16
+Runtime: 52445096
+
+82. T0125
+Test name: com.fasterxml.jackson.dataformat.xml.failing.Issue97Test#testBad
+Total covered fragments: 18
+Runtime: 364541883
+
+83. T0126
+Test name: com.fasterxml.jackson.dataformat.xml.failing.Issue97Test#testGood
+Total covered fragments: 18
+Runtime: 411957138
+
+84. T0127
+Test name: com.fasterxml.jackson.dataformat.xml.failing.TestConflictingGetters#testIssue27
+Total covered fragments: 12
+Runtime: 351672896
+
+85. T0128
+Test name: com.fasterxml.jackson.dataformat.xml.adapters.TestIssue47Attribute#testEmptyStringFromElemAndAttr
+Total covered fragments: 16
+Runtime: 391490735
+
+86. T0129
+Test name: com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest#testPersonAsXml
+Total covered fragments: 16
+Runtime: 349152698
+
+87. T0130
+Test name: com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest#testSerializeAsAttr
+Total covered fragments: 16
+Runtime: 348692579
+
+88. T0131
+Test name: com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest#testRootName
+Total covered fragments: 16
+Runtime: 264340312
+
+89. T0133
+Test name: com.fasterxml.jackson.dataformat.xml.jaxb.ElementWrapperTest#testElementWrapper
+Total covered fragments: 17
+Runtime: 366914154
+
+90. T0134
+Test name: com.fasterxml.jackson.dataformat.xml.jaxb.ElementWrapperTest#testNoElementWrapper
+Total covered fragments: 15
+Runtime: 230820244
+
+91. T0135
+Test name: com.fasterxml.jackson.dataformat.xml.jaxb.JAXBObjectId170Test#testPolyIdList178
+Total covered fragments: 17
+Runtime: 375731297
+
+92. T0136
+Test name: com.fasterxml.jackson.dataformat.xml.jaxb.AttributesWithJAXBTest#testTwoAttributes
+Total covered fragments: 15
+Runtime: 351373441
+
+93. T0137
+Test name: com.fasterxml.jackson.dataformat.xml.jaxb.AttributesWithJAXBTest#testAttributeAndElement
+Total covered fragments: 15
+Runtime: 229107295
+
+94. T0138
+Test name: com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testSimpleValidComment
+Total covered fragments: 6
+Runtime: 190488866
+
+95. T0139
+Test name: com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testSimpleValidPI
+Total covered fragments: 6
+Runtime: 162901868
+
+96. T0140
+Test name: com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testSimpleValidDoctype
+Total covered fragments: 6
+Runtime: 115391072
+
+97. T0141
+Test name: com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testSimpleValidXmlDecl
+Total covered fragments: 6
+Runtime: 111486202
+
+98. T0142
+Test name: com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testSimpleViaObjectReader
+Total covered fragments: 16
+Runtime: 367960018
+
+99. T0143
+Test name: com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testSimpleValidRoot
+Total covered fragments: 6
+Runtime: 109453441
+
+100. T0144
+Test name: com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testListViaObjectReader
+Total covered fragments: 21
+Runtime: 409622315
+
+101. T0145
+Test name: com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testSimpleInvalid
+Total covered fragments: 2
+Runtime: 109144903
+
+102. T0146
+Test name: com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest#testSimpleElement
+Total covered fragments: 3
+Runtime: 125012663
+
+103. T0147
+Test name: com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest#testSimpleAttribute
+Total covered fragments: 3
+Runtime: 78750556
+
+104. T0148
+Test name: com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest#testAttrAndElem
+Total covered fragments: 3
+Runtime: 161382196
+
+105. T0149
+Test name: com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest#testSecondLevelAttribute
+Total covered fragments: 3
+Runtime: 69644428
+
+106. T0150
+Test name: com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest#testWriteToFile
+Total covered fragments: 15
+Runtime: 325541034
+
+107. T0151
+Test name: com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest#testForceElementAsArray
+Total covered fragments: 15
+Runtime: 196803327
+
+108. T0152
+Test name: com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest#testSimpleWithEmpty
+Total covered fragments: 15
+Runtime: 309950262
+
+109. T0153
+Test name: com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest#testSimpleNested
+Total covered fragments: 15
+Runtime: 327237459
+
+110. T0154
+Test name: com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest#testXmlAttributes
+Total covered fragments: 15
+Runtime: 212713178
+
+111. T0155
+Test name: com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest#testRoundTripWithSample
+Total covered fragments: 16
+Runtime: 358389080
+
+112. T0156
+Test name: com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest#testSimplest
+Total covered fragments: 15
+Runtime: 349903991
+
+113. T0157
+Test name: com.fasterxml.jackson.dataformat.xml.stream.XmlTokenStreamTest#testEmptyTags
+Total covered fragments: 1
+Runtime: 59982562
+
+114. T0158
+Test name: com.fasterxml.jackson.dataformat.xml.stream.XmlTokenStreamTest#testRootAttributes
+Total covered fragments: 1
+Runtime: 39965110
+
+115. T0159
+Test name: com.fasterxml.jackson.dataformat.xml.stream.XmlTokenStreamTest#testNested
+Total covered fragments: 1
+Runtime: 58328723
+
+116. T0160
+Test name: com.fasterxml.jackson.dataformat.xml.stream.XmlTokenStreamTest#testSimple
+Total covered fragments: 1
+Runtime: 66388049
+
+Please rank these candidate tests from most likely to least likely to reveal the failure.
+Return only a JSON list of test IDs, for example: ["T0041", "T0033", "T0052"]

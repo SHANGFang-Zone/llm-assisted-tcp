@@ -1,0 +1,21 @@
+You are assisting with test case prioritization for early failure detection.
+Goal: Rank the candidate tests so that tests more likely to reveal failures are executed earlier.
+Failure context: [Insert failure stacktrace or error message if available]
+Candidate tests:
+1. T0072
+Test name: com.fasterxml.jackson.dataformat.xml.misc.UnwrappingWithXMLTest#testUnwrappingSubWithAttribute
+Total covered fragments: 20
+Runtime: 944039908
+
+2. T0073
+Test name: com.fasterxml.jackson.dataformat.xml.misc.UnwrappingWithXMLTest#testUnwrappingWithAttribute
+Total covered fragments: 20
+Runtime: 1722111276
+
+3. T0074
+Test name: com.fasterxml.jackson.dataformat.xml.misc.UnwrappingWithXMLTest#testSimpleUnwrappingRoundtrip
+Total covered fragments: 20
+Runtime: 1971979609
+
+Please rank these candidate tests from most likely to least likely to reveal the failure.
+Return only a JSON list of test IDs, for example: ["T0041", "T0033", "T0052"]

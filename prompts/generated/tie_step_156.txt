@@ -1,0 +1,31 @@
+You are assisting with test case prioritization for early failure detection.
+Goal: Rank the candidate tests so that tests more likely to reveal failures are executed earlier.
+Failure context: [Insert failure stacktrace or error message if available]
+Candidate tests:
+1. T0156
+Test name: com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest#testSimplest
+Total covered fragments: 15
+Runtime: 349903991
+
+2. T0157
+Test name: com.fasterxml.jackson.dataformat.xml.stream.XmlTokenStreamTest#testEmptyTags
+Total covered fragments: 1
+Runtime: 59982562
+
+3. T0158
+Test name: com.fasterxml.jackson.dataformat.xml.stream.XmlTokenStreamTest#testRootAttributes
+Total covered fragments: 1
+Runtime: 39965110
+
+4. T0159
+Test name: com.fasterxml.jackson.dataformat.xml.stream.XmlTokenStreamTest#testNested
+Total covered fragments: 1
+Runtime: 58328723
+
+5. T0160
+Test name: com.fasterxml.jackson.dataformat.xml.stream.XmlTokenStreamTest#testSimple
+Total covered fragments: 1
+Runtime: 66388049
+
+Please rank these candidate tests from most likely to least likely to reveal the failure.
+Return only a JSON list of test IDs, for example: ["T0041", "T0033", "T0052"]
